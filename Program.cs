@@ -63,10 +63,7 @@ namespace AccessControl
                     {
                         ClientId = "client",
                         AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
-                        ClientSecrets =
-                        {
-                            new Secret("secret".Sha256())
-                        },
+                        ClientSecrets = { new Secret("secret".Sha256()) },
                         AllowedScopes = { "api" }
                     },
                     new Client

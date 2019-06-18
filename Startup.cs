@@ -82,7 +82,7 @@ namespace AccessControl
                     })
                     .AddCookie(options =>
                     {
-                        options.LoginPath = "/Authorize/Login";
+                        options.LoginPath = "/Account/Login";
                     });
 
             services.AddCors(options =>

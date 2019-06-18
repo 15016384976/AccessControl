@@ -8,7 +8,6 @@
     <Folder Include="Controllers\Interfaces\Models\Permission\" />
     <Folder Include="Controllers\Interfaces\Models\Role\" />
     <Folder Include="Controllers\Interfaces\Models\User\" />
-    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>

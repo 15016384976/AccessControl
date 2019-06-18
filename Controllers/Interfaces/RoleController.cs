@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AccessControl.Controllers.Interfaces
 {
-    public class RoleController
+    [ApiController]
+    [Authorize(AuthenticationSchemes = "Bearer")]
+    [Route("Roles")]
+    public class RoleController : ControllerBase
     {
     }
 }
